@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  :root {
+    --border-radius: 4px;
+  }
+  .list {
+    color: #f5f7fa;
+  }
+}
